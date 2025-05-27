@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO("best.pt")  # Make sure best.pt is in the same folder
+model = YOLO("best_latest.pt")  # Make sure best.pt is in the same folder
 
 # Track with your MacBook's webcam
 model.track(
